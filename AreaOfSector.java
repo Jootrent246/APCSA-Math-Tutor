@@ -9,6 +9,7 @@ public class AreaOfSector {
     private double aValue;
     private double radius;
     public void acceptInputAreaSector(){
+        System.out.println("Area = a / 360 * πr²");
         Scanner inputA = new Scanner(System.in);
         System.out.print("Enter Degrees of Sector: ");
         aValue = inputA.nextDouble();

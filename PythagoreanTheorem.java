@@ -9,10 +9,11 @@ public class PythagoreanTheorem{
     private double sideA;
     private double sideB;
     public void acceptInputPT(){
+        System.out.println("c = √(a² + b²)");
         Scanner inputP = new Scanner(System.in);
-        System.out.print("Enter Value of the first side: ");
+        System.out.print("Enter Value of side a: ");
         sideA = inputP.nextDouble();
-        System.out.print("Enter Value of the second side: ");
+        System.out.print("Enter Value of side b: ");
         sideB = inputP.nextDouble();
         inputP.close();
     }

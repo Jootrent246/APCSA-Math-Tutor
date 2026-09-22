@@ -11,6 +11,7 @@ public class distance {
     private double pointx2;
     private double pointy2;
     public void acceptInputDistance() {
+        System.out.println("d = √((x₂ - x₁)^2 + (y₂ - y₁)^2);");
         Scanner inputD = new Scanner(System.in);
         System.out.print("Enter First X Coordinate Point: ");
         pointx1 = inputD.nextDouble();
@@ -23,7 +24,7 @@ public class distance {
         inputD.close();
     }
     public double solveDistance(){
-        double answerDistance = Math.sqrt(Math.pow(pointx1 + pointy1, 2) + Math.pow(pointx2 + pointy2, 2));
+        double answerDistance = Math.sqrt(Math.pow(pointx2 - pointx1, 2) + Math.pow(pointy2 - pointy1, 2));
         return answerDistance;
     }
 }
