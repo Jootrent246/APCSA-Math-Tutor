@@ -11,7 +11,7 @@ public class distance {
     private double pointx2;
     private double pointy2;
     public void acceptInputDistance() {
-        System.out.println("d = √((x₂ - x₁)^2 + (y₂ - y₁)^2);");
+        System.out.println("d = √((x₂ - x₁)^2 + (y₂ - y₁)^2)");
         Scanner inputD = new Scanner(System.in);
         System.out.print("Enter First X Coordinate Point: ");
         pointx1 = inputD.nextDouble();
