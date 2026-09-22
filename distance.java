@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class Distance {
+public class distance {
     private double pointx1;
     private double pointy1;
     private double pointx2;
