@@ -1,4 +1,4 @@
-/*AreaOfSector
+/*distance
 *Trent Hardacre
 *Solve the Distance between two points
  */
